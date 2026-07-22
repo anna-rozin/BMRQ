@@ -60,12 +60,6 @@ df_200s_b <- df_200s_b %>%
 # Remove free-text variables that will not be included in the
 # statistical analyses. These remain available in the raw files.
 
-#--------------------------------------------------
-# Remove unused questionnaire text variables
-#--------------------------------------------------
-# Remove free-text variables that will not be included in the
-# statistical analyses. These remain available in the raw files.
-
 df_100s_q <- df_100s_q %>%
   select(
     -Comment_mid,
