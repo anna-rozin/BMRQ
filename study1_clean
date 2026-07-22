@@ -35,10 +35,6 @@ df_200s_q <- read_csv(file_list[grepl("200s_Questionnaire", file_list)])
 # Calculate total BMRQ score
 #--------------------------------------------------
 
-#--------------------------------------------------
-# Calculate total BMRQ score
-#--------------------------------------------------
-
 # Calculate each participant's overall BMRQ score by summing
 # the six BMRQ subscale scores.
 
